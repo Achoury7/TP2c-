@@ -23,3 +23,6 @@ CVect3D(const n_w);
 
 
 void afficheLog()const;
+
+CVect3D operator[](float n_u, n_v, n_w);
+CVect3D operator = (float n_u, n_v, n_w);
